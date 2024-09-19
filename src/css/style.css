@@ -1,0 +1,37 @@
+ss-nnemgqbody {
+    font-family: 'Montserrat Alternates' !important;
+  }
+.makeStyles-container-3 {
+    margin-top: 170px !important;
+    
+}
+.MuiSwitch-colorSecondary.Mui-checked{
+    color: rgb(23, 141, 252) !important;
+}
+.MuiSwitch-colorSecondary.Mui-checked + .MuiSwitch-track {
+    background-color: rgb(23, 141, 252) !important;
+}
+
+.css-hyum1k-MuiToolbar-root,
+.makeStyles-addButton-10,
+.makeStyles-addButton-125,
+.jss10 {
+    background-color: #80223c !important;
+}
+
+.MuiTypography-body2,
+.MuiButton-label,
+.css-nxo287-MuiInputBase-input-MuiOutlinedInput-input{
+    font-family : 'Montserrat Alternates' !important;
+}
+.css-1xwoppp-MuiCardContent-root
+{
+    padding: 0px !important;
+}
+.css-1n4t422{
+    padding: 0px !important;
+}
+.css-v8cciz
+{
+gap: 80px !important;
+}

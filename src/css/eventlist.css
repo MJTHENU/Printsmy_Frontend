@@ -1,0 +1,342 @@
+/* .css-b6sufa-MuiPaper-root-MuiCard-root{
+  width: 200px !important;
+  height: 345px !important;
+} */
+.mainsection
+            {
+            width:100% !important;
+            background-color: #A6787A !important;
+            }
+.iconButton {
+    background-color: #850000 !important;
+  }
+  
+.download-btn {
+  background-color: #7f223d !important; /* Your preferred color */
+  
+  color: #fff !important; /* White text */
+  border: none !important;
+  padding: 15px 23px !important;
+  margin-left: 10px !important;
+  font-size: 16px !important;
+  border-radius: 50px !important;
+  cursor: pointer !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  text-decoration: none !important;
+  font-family: 'Montserrat Alternates' !important;
+}
+
+body {
+  font-family: 'Montserrat Alternates' !important;
+}
+
+.download-btn:hover {
+  background-color: #b5305f !important; /* A slightly lighter shade on hover */
+}
+
+.download-btn:focus {
+  outline: none !important;
+}
+
+/* External CSS for Card component */
+
+.card {
+  position: relative;
+  /* border-radius: 16px; */
+  transition: all 0.3s ease-in-out;
+  border-radius: 15px !important;
+}
+
+.card-center {
+  width: 252px !important;
+  height: 450px !important;
+  margin-top: 80px !important;
+}
+
+.card-non-center {
+  width: 200px !important;
+  height: 350px !important;
+  margin-top: 110px !important;
+}
+
+
+
+/* Add media query if you want to style it differently on mobile */
+
+
+
+@media (max-width: 320px) {
+  .card{
+    margin-top: 10px !important;
+  }
+.card-container{
+width: 100% !important;
+
+padding: 0px !important;
+margin-top: 10px !important;
+}
+
+.card-center {
+  width: 180px !important;  /* Adjust width */
+  height: 320px !important; /* Adjust height */
+  margin-top: 60px !important; /* Adjust margin */
+}
+
+.card-non-center {
+  width: 160px !important;  /* Adjust width */
+  height: 280px !important; /* Adjust height */
+  margin-top: 80px !important; /* Adjust margin */
+}
+  /* .card{
+  width: auto !important;
+  height: auto !important;
+  padding: 0px !important;
+  } */
+  .arrow
+  {
+    color: #fff !important;
+   width: 60% !important;
+   font-size: 30px !important;
+  }
+  .css-1dxcdol-MuiSvgIcon-root {
+    font-size: 30px !important;
+}
+.zoom-icon{
+right: 6px !important;
+}
+.makeStyles-img-3 
+{
+  width:20% !important;
+  height: 20% !important;
+}
+.download-btn {
+  font-size: 14px !important;
+  padding: 8px 16px !important;
+  margin-left: 0px !important;
+}
+.zoompic
+{
+ 
+
+    max-width: 100% !important;
+    max-height: 100% !important;
+    position: absolute !important;
+    top:51% !important;
+    left: 75% !important;
+    transform: translate(-80%, -50%) !important;
+ 
+}
+
+}
+
+
+    @media (min-width: 321px) and (max-width: 376px) {
+      .card-container{
+        width: 100% !important;
+        height: 100% !important;
+        padding: 0px !important;
+        /* margin-top: 15px !important; */
+       
+        }
+      
+          .card{
+          width: 100% !important;
+          height: auto !important;
+          padding: 0px !important;
+          margin-top: 10px !important;
+          }
+          .arrow
+          {
+            width: 80% !important;
+            font-size: 50px !important;
+            color: #fff !important;
+          }
+          .zoom-icon{
+            right:4px !important;
+            size: 5px !important;
+          }
+          .zoompic
+          {
+           
+          
+              max-width: 100% !important;
+              max-height: 100% !important;
+              position: absolute !important;
+              top:50% !important;
+              left: 75% !important;
+              transform: translate(-80%, -50%) !important;
+           
+          }
+
+          .card-center {
+            width: 200px !important;  /* Adjust width */
+            height: 340px !important; /* Adjust height */
+            margin-top: 60px !important; /* Adjust margin */
+          }
+        
+          .card-non-center {
+            width: 160px !important;  /* Adjust width */
+            height: 280px !important; /* Adjust height */
+            margin-top: 80px !important; /* Adjust margin */
+          }
+          .download-btn {
+            font-size: 14px !important;
+            padding: 8px 16px !important;
+            margin-left: 20px !important;
+          }
+        }
+
+          @media (min-width: 377px) and (max-width: 426px) {
+            .card-container{
+              width: 100% !important;
+              height: 100% !important;
+              padding: 0px !important;
+              margin-top: 18px !important;
+              }
+              
+                .card{
+                width: 100% !important;
+                height: auto !important;
+                padding: 0px !important;
+                margin-top: 10px !important;
+               
+                }
+                .arrow
+          {
+            color: #fff !important;
+            width: 70% !important;
+          }
+          .zoom-icon{
+            right: 6px !important;
+          }
+          .zoompic
+          {
+            max-width: 100% !important;
+            max-height: 100% !important;
+            position: absolute !important;
+            top: 49% !important;
+            left: 75% !important;
+            transform: translate(-80%, -50%) !important;
+          }
+          .card-center {
+            width: 220px !important;  /* Adjust width */
+            height: 350px !important; /* Adjust height */
+            margin-top: 60px !important; /* Adjust margin */
+          }
+        
+          .card-non-center {
+            width: 160px !important;  /* Adjust width */
+            height: 280px !important; /* Adjust height */
+            margin-top: 80px !important; /* Adjust margin */
+          }
+          .download-btn {
+            font-size: 14px !important;
+            padding: 8px 16px !important;
+            margin-left: 30px !important;
+          }
+         
+              }
+
+              @media (min-width: 427px) and (max-width: 768px) {
+                .card-container{
+                  width: 100% !important;
+                  height: 100% !important;
+                  padding: 0px !important;
+                  margin-top: 0px !important;
+                  }
+                 
+                    .card{
+                    width: 100% !important;
+                    height: auto !important;
+                    padding: 0px !important;
+                    margin-top: 10px !important;
+                    gap: 64px !important;
+                    }
+                    .css-v8cciz
+                    {
+                      gap: 64px !important;
+                    }
+                    .arrow
+              {
+                color: #fff !important;
+                width: 70% !important;
+              }
+              .zoom-icon{
+                right: 6px !important;
+              }
+              .zoompic
+              {
+                top:50% !important;
+              }
+              .card-center {
+                width: 220px !important;  /* Adjust width */
+                height: 350px !important; /* Adjust height */
+                margin-top: 60px !important; /* Adjust margin */
+              }
+            
+              .card-non-center {
+                width: 160px !important;  /* Adjust width */
+                height: 280px !important; /* Adjust height */
+                margin-top: 80px !important; /* Adjust margin */
+              }
+              .download-btn {
+                font-size: 14px !important;
+                padding: 8px 16px !important;
+                margin-left: 30px !important;
+              }
+                  }
+
+              @media (min-width: 769px) and (max-width: 1025px) {
+                .card-container {
+                  width: 100% !important;
+                  height: auto!important;
+                 
+                 
+                }
+                .css-79elbk
+                {
+                  width: 100% !important;
+                }
+                .card {
+                  width: 100% !important;
+                  height: auto !important;
+                  padding: 0px !important;
+                  margin-top: 10px !important;
+                }
+              
+                .arrow {
+                  color: #fff !important;
+                  width: 70% !important;
+                }
+              
+                .zoom-icon {
+                  right: 6px !important;
+                }
+              
+                .zoompic {
+                  top: 50% !important;
+                }
+                .card-center {
+                  width: 220px !important;  /* Adjust width */
+                  height: 350px !important; /* Adjust height */
+                  margin-top: 60px !important; /* Adjust margin */
+                }
+              
+                .card-non-center {
+                  width: 160px !important;  /* Adjust width */
+                  height: 280px !important; /* Adjust height */
+                  margin-top: 80px !important; /* Adjust margin */
+                }
+                .download-btn {
+                  font-size: 14px !important;
+                  padding: 8px 16px !important;
+                  margin-left: 30px !important;
+                }
+              }
+              
+
+              /* login page */
+             
+              

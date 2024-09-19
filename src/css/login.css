@@ -1,0 +1,292 @@
+.container {
+  margin-top: 120px; /* theme.spacing(15) */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff;
+  padding: 32px; /* theme.spacing(4) */
+  border-radius: 8px; /* theme.spacing(1) */
+}
+
+.submit {
+  margin: 8px 0 16px; /* theme.spacing(1, 0, 2) */
+  background-color: #7f223d !important;
+  color: #fff;
+  font-size: 18px;
+  text-transform: capitalize;
+}
+
+.img {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 8px; /* theme.spacing(1) */
+}
+
+.logo {
+  position: absolute;
+  top: 16px; /* theme.spacing(2) */
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  z-index: 1;
+}
+
+.errorText {
+  color: red;
+  font-size: 14px;
+  margin-top: 8px; /* theme.spacing(1) */
+}
+
+.passwordBox {
+  width: 50px !important;
+  height: 50px !important;
+  margin-top: 5px;      /* Space above the password box */
+  margin-right: 10px;   /* Space to the right */
+  margin-bottom: 5px;   /* Space below the password box */
+  margin-left: 10px;    /* Space to the left */
+  font-size: 30px !important;
+  text-align: center;
+}
+
+.passwordContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.passwordChar {
+  width: 40px !important;  /* Adjust width */
+  height: 40px; /* Adjust height */
+  border: 1px solid #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 10px; /* Adjust margin if needed */
+}
+
+.passwordChar :focus {
+  color: darkblue !important;
+}
+
+.dot {
+  width: 50%; /* Maintain this or adjust based on .passwordChar size */
+  height: 100%; /* Maintain this or adjust based on .passwordChar size */
+  border-radius: 50%;
+  background-color: black;
+}
+
+.eye_icon {
+  position: absolute;
+  right: 10px;
+}
+
+.spinnerContainer {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+
+/* Tablets and large mobile devices (landscape orientation) */
+@media (max-width: 1025px) {
+  .container {
+    margin-top: 100px;
+    padding: 24px; /* Smaller padding for tablets */
+  }
+
+  .submit {
+    font-size: 16px; /* Slightly smaller font size */
+  }
+
+  .passwordChar{
+    width: 50px !important;
+    height : 50px !important;
+    margin: 20px !important;
+  }
+
+  .dot {
+    width: 8px;
+    height: 8px;
+  }
+
+  .img {
+    width: 45px;
+    height: 45px;
+  }
+}
+
+/* Small tablets and large phones (portrait orientation) */
+@media (max-width: 769px) {
+  .container {
+    margin-top: 80px;
+    padding: 20px;
+  }
+
+  .submit {
+    font-size: 14px;
+  }
+
+  .passwordChar{
+    width: 50px !important;
+    height : 50px !important;
+    margin: 20px !important;
+  }
+
+  .dot {
+    width: 7px;
+    height: 7px;
+  }
+
+  .img {
+    width: 40px;
+    height: 40px;
+  }
+}
+
+/* Small phones (landscape and portrait orientation) */
+@media (max-width: 577px) {
+  .container {
+    margin-top: 60px;
+    padding: 16px;
+  }
+
+  .submit {
+    font-size: 12px;
+    padding: 10px;
+  }
+
+  .passwordChar{
+    width: 50px !important;
+    height : 50px !important;
+    margin: 20px !important;
+  }
+
+  .dot {
+    width: 6px;
+    height: 6px;
+  }
+
+  .img {
+    width: 35px;
+    height: 35px;
+  }
+}
+
+/* Extra small phones (portrait orientation) */
+@media (min-width:322px) and (max-width: 426px) {
+  .container {
+    margin: 40px 10px 0 10px !important;
+    padding: 10px  10px 10px 10px !important;
+  }
+  .passwordChar{
+    width: 50px !important;
+    height: 50px !important;
+    margin: 10px !important;
+  }
+  .passwordContainer {
+    display: flex;
+    justify-content: space-between !important;
+    align-items: center;
+    position: relative;
+  }
+
+  .submit {
+    font-size: 11px;
+    padding: 8px;
+  }
+
+  /* .passwordChar {
+    width: 30px;
+    height: 30px;
+    margin: 0 5px;
+    border: 1px solid #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  } */
+
+  .dot {
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background-color: #000;
+  }
+
+  .img {
+    width: 35px;
+    height: 35px;
+  }
+
+  .hiddenInput {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    z-index: 2;
+    font-size: 20px !important;
+  }
+}
+
+@media (max-width: 321px) {
+  .container {
+    margin: 40px !important;
+    padding: 10px  10px 10px 10px !important;
+  }
+  .passwordChar{
+    width: 40px !important;
+    height : 40px !important;
+    margin: 10px !important;
+  }
+  .passwordContainer {
+    display: flex;
+    justify-content: space-between !important;
+    align-items: center;
+    position: relative;
+  }
+
+  .submit {
+    font-size: 11px;
+    padding: 8px;
+  }
+
+  .passwordBox {
+    width: 20px !important; /* Set the width of the password box */
+    height: 25px !important;
+    margin-top: 5px;      /* Space above the password box */
+    margin-right: 10px;   /* Space to the right */
+    margin-bottom: 5px;   /* Space below the password box */
+    margin-left: 10px;    /* Space to the left */
+    font-size: 30px !important;
+      text-align: center;
+  }
+
+  .dot {
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background-color: #000;
+  }
+  .img {
+    width: 35px;
+    height: 35px;
+  }
+
+  .hiddenInput {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* opacity: 0; */
+    z-index: 2;
+    font-size: 20px !important;
+    visibility: hidden; 
+  }
+}

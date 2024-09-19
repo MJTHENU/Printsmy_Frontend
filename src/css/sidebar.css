@@ -1,0 +1,284 @@
+body {
+  font-family: 'Montserrat Alternates' !important;
+}
+
+.css-1k6isnj-MuiListItemText-root .MuiListItemText-secondary 
+{
+  font-size: 12px !important;
+}
+.css-1k6isnj-MuiListItemText-root .MuiListItemText-primary
+{
+  font-size: 14px !important;
+}
+.list {
+  border: 1px solid grey !important;
+  padding: 0px !important;
+  text-align: center !important;
+}
+
+.css-cewxpa-MuiListItemText-root .MuiListItemText-primary,
+.css-1h3tivw-MuiListItemText-root .MuiListItemText-primary,
+.css-cewxpa-MuiListItemText-root .MuiListItemText-secondary,
+.css-1h3tivw-MuiListItemText-root .MuiListItemText-secondary,
+.css-1bm0k7y-MuiButtonBase-root-MuiButton-root, 
+.css-78trlr-MuiButtonBase-root-MuiIconButton-root,
+.css-1nacrny-MuiListItemText-root .MuiListItemText-primary,
+.css-1nacrny-MuiListItemText-root .MuiListItemText-secondary {
+  font-family: 'Montserrat Alternates' !important;
+}
+
+.css-1ik6phh-MuiDrawer-docked .MuiDrawer-paper{
+  width: 270px !important;
+  padding: 10px;
+}
+
+.css-bshv44-MuiButtonBase-root-MuiListItem-root{
+  height: 60px !important;
+}
+
+.css-5jerbj-MuiList-root {
+  padding: 0px !important;
+}
+ 
+.css-1h3tivw-MuiListItemText-root .MuiListItemText-primary,
+.css-cewxpa-MuiListItemText-root .MuiListItemText-primary,
+.css-1nacrny-MuiListItemText-root .MuiListItemText-primary {
+  font-size: 16px !important;
+  color: #000 !important;
+  font-weight: 600 !important;
+}
+  
+  .list-active {
+    background-color: #850000 !important;
+    color: #000 !important;
+    
+  }
+  
+  .list-inactive {
+    background-color: #fff !important;
+    color: #fff !important;
+  }
+  
+  /* Additional styling for your sidebar */
+  
+  .upcome {
+    color: #fff !important;
+    background: #A6787A !important;
+    border-top-left-radius: 50px !important;
+    border-top-right-radius: 50px !important;
+    text-align: center !important;
+    padding: 5px !important;
+ 
+  }
+  
+  .upcome1 {
+    color: #fff !important;
+    background: #A6787A !important;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    text-align: center !important;
+    padding: 10px !important;
+  }
+  
+  .appbar {
+    background: #7f223d !important;
+  }
+  
+  .drawer-paper {
+    box-sizing: border-box !important;
+    background-color: #f3d3c0 !important;
+    color: #000 !important;
+    border-right: 1px solid #000 !important;
+  }
+  
+  .icon-btn {
+    display: none !important;
+    float: right !important;
+    font-size: 40px !important;
+    margin-top: 5% !important;
+    cursor: pointer !important;
+   color: black !important;
+  }
+  
+  @media (min-width: 600px) {
+    .icon-btn {
+      display: flex !important;
+     
+    }
+  }
+
+  .css-i4bv87-MuiSvgIcon-root {
+    color:gray !important;
+  }
+  /* Add this to your CSS file (eventlist.css or a new CSS file) */
+
+@media (max-width: 600px) {
+  .logout-text {
+    display: none !important;
+  }
+}
+
+  /* Styling for others components */
+
+  /* Additional styling for the second section */
+/* .quotes {
+  background-color: #f3d3c0 !important;
+  color: #000 !important;
+} */
+
+.css-1ik6phh-MuiDrawer-docked .MuiDrawer-paper {
+  width: 270px !important;
+  background-color: #f3d3c0 !important;
+  color: #000 !important;
+}
+
+
+
+
+
+.css-mpf1nu-MuiDrawer-docked .MuiDrawer-paper {
+  background-color: #f3d3c0 !important;
+    color: #000 !important;
+}
+
+.css-dvz6a2-MuiModal-root-MuiDrawer-root .MuiDrawer-paper {
+  background-color: #f3d3c0 !important;
+}
+
+.css-hyum1k-MuiToolbar-root {
+  min-height: 56px !important;
+}
+
+.quotes-active {
+  background-color: #850000 !important;
+  color: #000 !important;
+}
+
+.quotes-inactive {
+  background-color: #fff !important;
+  color: #fff !important;
+}
+
+.quotes-item {
+  padding: 0 !important;
+  font-family: 'Roboto, sans-serif' !important;
+}
+
+.quotes-item-primary {
+  font-size: 22px !important;
+  color: #000 !important;
+}
+
+.quotes-item-secondary {
+  font-size: 14px !important;
+  color: #000 !important;
+}
+
+.arrowback{
+  background-color:red !important;
+ border-radius: 10px !important;
+  height: 30px !important;
+  width: 30px !important;
+  padding: 3px 8px !important;
+  cursor: pointer !important; 
+  font-size: 20px !important;
+  font-weight: 700 !important;
+}
+
+@media (max-width: 320px) {
+  .arrowback {
+    height: 25px !important;
+  width: 25px !important;
+  }
+.mainlogo
+{
+ padding-left: 5px !important;
+height: 25px !important;
+}
+.logout
+{
+  height: 25px !important;
+  width: 25px !important;
+}
+
+.css-1dxcdol-MuiSvgIcon-root {
+  font-size: 30px !important;
+}
+}
+
+
+
+@media (min-width:321px)and (max-width: 376px) {
+  .arrowback {
+    height: 28px !important;
+  width: 28px !important;
+  }
+.mainlogo
+{
+ 
+height: 28px !important;
+}
+.logout
+{
+  height: 28px !important;
+  width: 28px !important;
+}
+
+.css-1dxcdol-MuiSvgIcon-root {
+  font-size: 30px !important;
+}
+}
+
+@media (min-width:377px)and (max-width: 426px) {
+  .arrowback {
+    height: 30px !important;
+  width: 30px !important;
+  }
+  /* 7777 */
+.mainlogo
+{
+ 
+height: 30px !important;
+}
+.logout
+{
+  height: 30px !important;
+  width: 30px !important;
+}
+}
+.css-z9knoh-MuiListItemText-root .MuiListItemText-primary,
+.css-1u5sx3r-MuiListItemText-root .MuiListItemText-primary,
+
+.css-6ehv5p-MuiListItemText-root .MuiListItemText-primary,
+.css-ibky3z-MuiListItemText-root .MuiListItemText-primary,
+.css-10hburv-MuiTypography-root,
+.MuiTypography-h5
+{
+  color: #000 !important;
+  font-family: 'Montserrat Alternates' !important;
+  font-size: 18px !important;
+}
+/* extra */
+.css-10hburv-MuiTypography-root
+{
+  font-weight: 600 !important;
+}
+
+
+.css-vij769-MuiListItemText-root .MuiListItemText-primary
+{
+  color: #fff !important;
+}
+.css-mbfek{
+  font-size: 10px !important;
+}
+
+.MuiLink-underlineHover {
+  text-decoration: none;
+}
+
+/* extra */
+.css-yb0lig 
+{
+  font-weight: 700 !important;
+}

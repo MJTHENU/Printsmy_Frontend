@@ -1,0 +1,111 @@
+.css-wf16b5
+{
+    background-color: #7f223d !important;
+}
+.makeStyles-container-3 {
+    margin-top: 170px !important;
+}
+.MuiSwitch-colorSecondary.Mui-checked{
+    color: rgb(23, 141, 252) !important;
+}
+.MuiSwitch-colorSecondary.Mui-checked + .MuiSwitch-track {
+    background-color: rgb(23, 141, 252) !important;
+}
+
+.css-hyum1k-MuiToolbar-root {
+    background-color: #80223c;
+}
+
+.css-12i7wg6-MuiPaper-root-MuiDrawer-paper {
+    background-color: #80223c !important;
+    color: #fff !important;
+}
+
+.css-4t3x6l-MuiPaper-root-MuiDrawer-paper {
+    background-color: #E0E0E0 !important;
+}
+
+.css-1r7kz78-MuiModal-root-MuiDrawer-root .MuiDrawer-paper,
+.css-1oh42y7-MuiButtonBase-root-MuiIconButton-root {
+    background-color: #7f223d !important;
+    color: #fff !important;
+    font-weight: 700;
+    font-size: small !important;
+}
+
+.css-13jf6t5-MuiPaper-root-MuiCard-root {
+    border-radius: 15px !important;
+}
+
+.css-m72epa-MuiCardContent-root {
+    justify-content: center !important;
+    margin-top: 0px !important;
+    padding: 7px !important;
+}
+
+.css-1g25wsq-MuiPaper-root-MuiCard-root {
+    margin-top: 120px !important;
+}
+
+
+.css-1ik6phh-MuiDrawer-docked .MuiDrawer-paper {
+    width: 270px !important;
+    padding: 10px;
+}
+
+.css-1v9gv1b-MuiButtonBase-root-MuiListItem-root,
+.css-1v9gv1b-MuiButtonBase-root-MuiListItem-root.Mui-selected {
+    background-color: #850000 !important;
+}
+
+.css-mmi6pq-MuiButtonBase-root-MuiListItem-root {
+    border: 1px solid gray !important;
+}
+
+.css-10hburv-MuiTypography-root {
+    font-family: 'Montserrat Alternates' !important;
+    font-size: large !important;
+    font-weight: 600 !important;
+    color: #fff !important;
+}
+
+
+.icon_eli{
+    color: #fff !important;
+}
+
+.css-hyum1k-MuiToolbar-root {
+    position: unset !important;
+}
+
+.LG_button{
+    font-size: small !important;
+    font-weight: 700 !important;
+    color: #fff !important;
+    padding: 8px !important;
+}
+
+.css-9tj150-MuiButton-endIcon>*:nth-of-type(1) {
+    background-color: red;
+    width: 25px;
+    height: 25px;
+    border-radius: 5px;
+}
+
+@media (max-width:600px) {
+    .css-111gpxb {
+         width: 0 
+    }
+}
+
+
+
+/* extra for side  */
+.css-1j95noh .MuiDrawer-paper
+{
+    background-color: #80223c !important;
+}
+.css-i6s8oy 
+{
+    background-color: #80223c !important;
+}
